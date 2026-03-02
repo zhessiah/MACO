@@ -1,7 +1,6 @@
-# PEPSI
+# MACO
 
-Open-source code for PEPSI: Pareto-Optimal Adversarial Regularization for Robust
-Multi-agent Reinforcement Learning.
+Open-source code for MACO: emetic Adversarial Co-evolution for Robust Multi-Agent Cooperation.
 
 
 ## Installation instructions
@@ -10,8 +9,8 @@ Install Python packages
 
 ```shell
 # require Anaconda 3 or Miniconda 3
-conda create -n PEPSI python=3.8 -y
-conda activate PEPSI
+conda create -n MACO python=3.8 -y
+conda activate MACO
 
 bash install_dependecies.sh
 ```
@@ -36,8 +35,8 @@ bash install_gfootball.sh
 
 ```shell
 # For SMAC
-conda activate ROMANCE
-CUDA_VISIBLE_DEVICES=2 python3 src/main.py --config=MACO --env-config=sc2 with env_args.map_name=MMM
+conda activate pymarl
+CUDA_VISIBLE_DEVICES=1 python3 src/main.py --config=MACO --env-config=sc2 with env_args.map_name=8m
 ```
 
 ```shell
