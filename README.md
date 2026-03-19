@@ -1,6 +1,6 @@
 # MACO
 
-Open-source code for MACO: emetic Adversarial Co-evolution for Robust Multi-Agent Cooperation.
+Open-source code for MACO: Memetic Adversarial Co-evolution for Robust Multi-Agent Cooperation.
 
 
 ## Installation instructions
@@ -35,8 +35,8 @@ bash install_gfootball.sh
 
 ```shell
 # For SMAC
-conda activate pymarl
-CUDA_VISIBLE_DEVICES=1 python3 src/main.py --config=MACO --env-config=sc2 with env_args.map_name=8m
+conda activate ROMANCE
+CUDA_VISIBLE_DEVICES=2 python3 src/main.py --config=MACO --env-config=sc2 with env_args.map_name=1c3s5z
 ```
 
 ```shell

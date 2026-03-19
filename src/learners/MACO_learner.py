@@ -269,7 +269,7 @@ class MACOLearner:
         
         # === Step 4: Apply mask and compute mean ===
         masked_q_tot = adversarial_q_tot * mask
-        mean_adversarial_q = masked_q_tot.sum() / (mask.sum() + 1e-8)
+        mean_adversarial_q = masked_q_tot.sum() / (mask.sum())
         
         # === Optional: Sample multiple attackers and take min (worst-case) ===
         # If population_attackers is provided, we can compute Q_tot for multiple attack strategies
